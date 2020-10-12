@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "roboto";
+    font-size: 13px;
+
+}
+
+a
+{
+    display: inline-block;
+}
+p
+{
+    
+}
+header
+{
+ 
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .container .logo
+{
+   width: 200px;
+}
+
+header .container nav a
+{
+    color: red; 
+    text-decoration: none; 
+    margin:  15px;
+}
+.boton
+{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.boton.boton-rojo
+{
+    color: white;
+    background-color: red; 
+    font-size:15px;
+    font-weight: bold;
+}
+
+.boton.boton-blanco
+{
+    color: red;
+    background-color: white; 
+    font-size:16px;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+.seccion
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+    
+}
+.container
+{
+        width: 1140px;
+        margin: 0 auto 0 auto;
+        padding-right: 15px;
+        padding-left: 15px; 
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.columna
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.columna-33
+{
+    width: 33.33%;
+}
+
+#incio
+{
+    position: relative;
+}
+
+#inicio img
+{
+    width: 100%;
+    display: block; 
+}
+
+#inicio .bloque-incio
+{
+    position: absolute; 
+    font-size:16px;
+    top:  40%;
+    left: 40%;
+    width: 400px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+#inicio .bloque-incio h1
+{
+    color: white;
+    font-size: 35px;
+}
+#inicio .bloque-incio p
+{
+    color: white;
+}
+#nosotros
+{
+    background-image: url(img/latas.jpg);
+    background-size: cover;;
+    color: white;
+    text-align: center;
+} 
+
+#nostros p
+{
+    color: white;
+    text-align: center;
+    font-size:16px;
+    /*margin: 0;*/
+
+}
+
+#servicios .bloque-servicio
+{
+    border: 1px solid grey;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio
+{
+
+}
+
+#servicios .bloque-servicio .bloque-img-servicio img
+{
+    width: 100%;
+}
+.#servicios .bloque-servicio .bloque-contenido-servicio
+{
+    padding: 15%;
+}
+
+
